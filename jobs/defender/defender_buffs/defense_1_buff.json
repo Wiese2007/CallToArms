@@ -1,9 +1,9 @@
 {
    "type": "buff",
    "axis": "buff",
-   "display_name": "i18n(stonehearth:jobs.knight.knight_buffs.defense_1_buff.display_name)",
-   "description": "i18n(stonehearth:jobs.knight.knight_buffs.defense_1_buff.description)",
-   "icon": "file(knight_buff_def_up_1.png)",
+   "display_name": "i18n(stonehearth:jobs.defender.defender_buffs.defense_1_buff.display_name)",
+   "description": "i18n(stonehearth:jobs.defender.defender_buffs.defense_1_buff.description)",
+   "icon": "file(defender_buff_def_up_1.png)",
    "modifiers": {
       "multiplicative_armor_modifier": {
          "add": 0.1

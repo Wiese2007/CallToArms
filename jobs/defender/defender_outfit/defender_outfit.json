@@ -8,14 +8,14 @@
             "layer": "clothing",
             "transparent": "false",
             "models": [
-               "file(knight_outfit.qb)"
+               "file(defender_outfit.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
             "transparent": "false",
             "models": [
-               "file(knight_outfit_female.qb)"
+               "file(defender_outfit_female.qb)"
             ]
          }
       },
@@ -29,9 +29,9 @@
          "base_damage_reduction": 6
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:jobs.knight.knight_outfit.display_name)",
-         "description": "i18n(stonehearth:jobs.knight.knight_outfit.description)",
-         "icon": "file(knight_outfit.png)"
+         "display_name": "i18n(stonehearth:jobs.defender.defender_outfit.display_name)",
+         "description": "i18n(stonehearth:jobs.defender.defender_outfit.description)",
+         "icon": "file(defender_outfit.png)"
       }
    }
 }

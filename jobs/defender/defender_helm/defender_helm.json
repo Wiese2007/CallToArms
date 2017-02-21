@@ -7,14 +7,14 @@
             "layer": "hat",
             "transparent": "false",
             "models": [
-               "file(knight_helm.qb)"
+               "file(defender_helm.qb)"
             ]
          },
          "female": {
             "layer": "hat",
             "transparent": "false",
             "models": [
-               "file(knight_helm_female.qb)"
+               "file(defender_helm_female.qb)"
             ]
          }
       },
@@ -22,7 +22,7 @@
          "render_type": "merge_with_model",
          "slot": "helmet",
          "ilevel": 4,
-         "roles": "knight_job",
+         "roles": "defender_job",
          "no_drop": true
       }
    },
@@ -31,9 +31,9 @@
          "base_damage_reduction": 4
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:jobs.knight.knight_helm.display_name)",
-         "description": "i18n(stonehearth:jobs.knight.knight_helm.description)",
-         "icon": "file(knight_helm.png)",
+         "display_name": "i18n(stonehearth:jobs.defender.defender_helm.display_name)",
+         "description": "i18n(stonehearth:jobs.defender.defender_helm.description)",
+         "icon": "file(defender_helm.png)",
          "is_item": true,
          "category": "armor",
          "material_tags": "iron armor heavy_armor"
