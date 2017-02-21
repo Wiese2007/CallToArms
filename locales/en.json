@@ -14,13 +14,6 @@
             "description" : "Let your footmen patrol!",
             "flavor" : "With this you can now controll your footmens :D"
          }
-      },
-      "potter": {
-         "patrol_point_recipe": {
-            "recipe_name" : "Patrol Point",
-            "description" : "Let your footmen patrol!",
-            "flavor" : "With this you can now controll your footmens :D"
-         }
       }
    }
 }

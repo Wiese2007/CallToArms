@@ -8,12 +8,10 @@
     "aliases": {
 
         "furniture:patrol_point": "file(entities/patrol_point)",
-        "furniture:patrol_stele": "file(entities/patrol_stele)"
     },
 
     "mixintos" : {
         "stonehearth/jobs/carpenter/recipes/recipes.json" : "file(recipes/carpenter/recipes.json)",
-        "stonehearth/jobs/potter/recipes/recipes.json" : "file(recipes/potter/recipes.json)",
         "stonehearth:containers:large_crate": "file(disable_entity_auto_patrol.json)",
         "stonehearth:containers:large_crate:fine": "file(disable_entity_auto_patrol.json)",
         "stonehearth:containers:large_urn": "file(disable_entity_auto_patrol.json)",
