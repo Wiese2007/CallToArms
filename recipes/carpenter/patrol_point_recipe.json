@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(patrol_mod:recipes.carpenter.patrol_point_recipe.recipe_name)",
+   "description": "i18n(patrol_mod:recipes.carpenter.patrol_point_recipe.description)",
+   "flavor": "i18n(patrol_mod:recipes.carpenter.patrol_point_recipe.flavor)",
+   "portrait": "/patrol_mod/entities/patrol_point/patrol_point.png",
+   "workshop" : "stonehearth:carpenter:workbench", 
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 1
+      },
+      {
+         "material": "cloth resource",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "patrol_mod:furniture:patrol_point"
+      }
+   ]
+}
