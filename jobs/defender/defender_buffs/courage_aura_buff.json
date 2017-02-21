@@ -1,0 +1,16 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(stonehearth:jobs.knight.knight_buffs.courage_aura_buff.display_name)",
+   "description": "i18n(stonehearth:jobs.knight.knight_buffs.courage_aura_buff.description)",
+   "icon": "file(knight_buff_inspiring_presence.png)",
+   "script": "stonehearth:buff_scripts:aura",
+   "script_info": {
+      "pulse": "10m",
+      "aura_buff": "stonehearth:buffs:knight:courage_aura_effect",
+      "radius": 20,
+      "affect_self": false,
+      "pulse_immediately": true,
+      "target_type": "mob"
+   }
+}

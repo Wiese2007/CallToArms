@@ -1,0 +1,18 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(stonehearth:jobs.knight.knight_buffs.health_2_buff.display_name)",
+   "description": "i18n(stonehearth:jobs.knight.knight_buffs.health_2_buff.description)",
+   "icon": "file(knight_buff_fortify.png)",
+   "modifiers": {
+      "stamina": {
+         "add": 200
+      },
+      "courage": {
+         "add": 200
+      },
+      "menace": {
+         "add": 150
+      }
+   }
+}
