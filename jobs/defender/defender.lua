@@ -1,4 +1,4 @@
-local KnightClass = class()
+local DefenderClass = class()
 local CombatJob = require 'jobs.combat_job'
-radiant.mixin(KnightClass, CombatJob)
-return KnightClass
+radiant.mixin(DefenderClass, CombatJob)
+return DefenderClass

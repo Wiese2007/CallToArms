@@ -16,6 +16,8 @@
 		"decorations:tapestry_wall_together": "file(entities/decorations/tapestry_wall_together)",
 		"decorations:tent": "file(entities/decorations/tent)",
 
+		"defender:talisman": "file(entities/jobs/defender_spear_talisman.json)",
+
 		"armor:defender_outfit": "file(entities/jobs/defender/defender_outfit)",
 		"armor:defender_helm": "file(entities/jobs/defender/defender_helm)",
 		"armor:defender_tower_shield": "file(entities/jobs/defender/defender_tower_shield)",
@@ -39,6 +41,7 @@
         "stonehearth:containers:large_crate:fine": "file(disable_entity_auto_patrol.json)",
         "stonehearth:containers:large_urn": "file(disable_entity_auto_patrol.json)",
         "stonehearth:stockpile": "file(disable_entity_auto_patrol.json)",
-        "stonehearth:farmer:field": "file(disable_entity_auto_patrol.json)"
+        "stonehearth:farmer:field": "file(disable_entity_auto_patrol.json)",
+        "stoneharth/jobs/index.json" : "file(jobs/index.json"
     }
 }
