@@ -2,18 +2,18 @@
    "type": "job",
    "job_id": "defender",
    "enabled": true,
-   "alias": "stonehearth:jobs:defender",
-   "display_name": "i18n(stonehearth:jobs.defender.defender_description.display_name)",
-   "controller": "stonehearth:class:defender",
-   "description": "i18n(stonehearth:jobs.defender.defender_description.description)",
-   "requirements": "i18n(stonehearth:jobs.defender.defender_description.requirements)",
-   "talisman_uri": "stonehearth:defender:talisman",
+   "alias": "calltoarms:jobs:defender",
+   "display_name": "i18n(calltoarms:jobs.defender.defender_description.display_name)",
+   "controller": "calltoarms:class:defender",
+   "description": "i18n(calltoarms:jobs.defender.defender_description.description)",
+   "requirements": "i18n(calltoarms:jobs.defender.defender_description.requirements)",
+   "talisman_uri": "calltoarms:defender:talisman",
    "default_stance": "aggressive",
    "abilities": "file(defender_abilities)",
    "equipment": {
       "torso": "file(defender_outfit)",
-      "offhand": "stonehearth:armor:defenders_shield",
-      "mainhand": "stonehearth:weapons:bronze_sword",
+      "offhand": "calltoarms:armor:defenders_tower_shield",
+      "mainhand": "calltoarms:weapons:defender_spear",
       "helmet": "file(defender_helm)"
    },
    "roles": "defender_job plate_wearer melee_combat combat",
@@ -35,11 +35,11 @@
          "perks": [
             {
                "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.defender.defender_description.level_0_data.perk_000_name)",
+               "name": "i18n(calltoarms:jobs.defender.defender_description.level_0_data.perk_000_name)",
                "id": "defender_health_up_1",
                "icon": "file(images/defender_perk_fortify.png)",
-               "buff_name": "stonehearth:buffs:defender:health_1",
-               "description": "i18n(stonehearth:jobs.defender.defender_description.level_0_data.perk_000_description)",
+               "buff_name": "calltoarms:buffs:defender:health_1",
+               "description": "i18n(calltoarms:jobs.defender.defender_description.level_0_data.perk_000_description)",
                "level": 0,
                "demote_fn": "remove_buff"
             }
@@ -49,11 +49,11 @@
          "perks": [
             {
                "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.defender.defender_description.level_1_data.perk_000_name)",
+               "name": "i18n(calltoarms:jobs.defender.defender_description.level_1_data.perk_000_name)",
                "id": "defender_defense_up_1",
                "icon": "file(images/defender_perk_def_up_1.png)",
-               "buff_name": "stonehearth:buffs:defender:defense_1",
-               "description": "i18n(stonehearth:jobs.defender.defender_description.level_1_data.perk_000_description)",
+               "buff_name": "calltoarms:buffs:defender:defense_1",
+               "description": "i18n(calltoarms:jobs.defender.defender_description.level_1_data.perk_000_description)",
                "level": 1,
                "demote_fn": "remove_buff"
             }
@@ -63,12 +63,12 @@
          "perks": [
             {
                "type": "add_combat_action",
-               "name": "i18n(stonehearth:jobs.defender.defender_description.level_2_data.perk_000_name)",
+               "name": "i18n(calltoarms:jobs.defender.defender_description.level_2_data.perk_000_name)",
                "id": "defender_aggro_attack",
                "icon": "file(images/defender_perk_shout.png)",
-               "equipment": "stonehearth:defender:aggro_shout_1",
-               "action_type": "stonehearth:combat:melee_attacks",
-               "description": "i18n(stonehearth:jobs.defender.defender_description.level_2_data.perk_000_description)",
+               "equipment": "calltoarms:defender:aggro_shout_1",
+               "action_type": "calltoarms:combat:melee_attacks",
+               "description": "i18n(calltoarms:jobs.defender.defender_description.level_2_data.perk_000_description)",
                "level": 2,
                "demote_fn": "remove_combat_action"
             }
@@ -78,12 +78,12 @@
          "perks": [
             {
                "type": "apply_chained_buff",
-               "name": "i18n(stonehearth:jobs.defender.defender_description.level_3_data.perk_000_name)",
+               "name": "i18n(calltoarms:jobs.defender.defender_description.level_3_data.perk_000_name)",
                "id": "defender_health_up_2",
                "icon": "file(images/defender_perk_fortify.png)",
-               "buff_name": "stonehearth:buffs:defender:health_2",
-               "last_buff": "stonehearth:buffs:defender:health_1",
-               "description": "i18n(stonehearth:jobs.defender.defender_description.level_3_data.perk_000_description)",
+               "buff_name": "calltoarms:buffs:defender:health_2",
+               "last_buff": "calltoarms:buffs:defender:health_1",
+               "description": "i18n(calltoarms:jobs.defender.defender_description.level_3_data.perk_000_description)",
                "level": 3,
                "demote_fn": "remove_buff"
             }
@@ -93,12 +93,12 @@
          "perks": [
             {
                "type": "apply_chained_buff",
-               "name": "i18n(stonehearth:jobs.defender.defender_description.level_4_data.perk_000_name)",
+               "name": "i18n(calltoarms:jobs.defender.defender_description.level_4_data.perk_000_name)",
                "id": "defender_defense_up_2",
                "icon": "file(images/defender_perk_def_up_2.png)",
-               "buff_name": "stonehearth:buffs:defender:defense_2",
-               "last_buff": "stonehearth:buffs:defender:defense_1",
-               "description": "i18n(stonehearth:jobs.defender.defender_description.level_4_data.perk_000_description)",
+               "buff_name": "calltoarms:buffs:defender:defense_2",
+               "last_buff": "calltoarms:buffs:defender:defense_1",
+               "description": "i18n(calltoarms:jobs.defender.defender_description.level_4_data.perk_000_description)",
                "level": 4,
                "demote_fn": "remove_buff"
             }
@@ -108,11 +108,11 @@
          "perks": [
             {
                "type": "apply_buff",
-               "name": "i18n(stonehearth:jobs.defender.defender_description.level_5_data.perk_000_name)",
+               "name": "i18n(calltoarms:jobs.defender.defender_description.level_5_data.perk_000_name)",
                "id": "defender_courage_aura",
                "icon": "file(images/defender_perk_inspiring_presence.png)",
-               "buff_name": "stonehearth:buffs:defender:courage_aura",
-               "description": "i18n(stonehearth:jobs.defender.defender_description.level_5_data.perk_000_description)",
+               "buff_name": "calltoarms:buffs:defender:courage_aura",
+               "description": "i18n(calltoarms:jobs.defender.defender_description.level_5_data.perk_000_description)",
                "level": 5,
                "demote_fn": "remove_buff"
             }
@@ -122,13 +122,13 @@
          "perks": [
             {
                "type": "add_chained_combat_action",
-               "name": "i18n(stonehearth:jobs.defender.defender_description.level_6_data.perk_000_name)",
+               "name": "i18n(calltoarms:jobs.defender.defender_description.level_6_data.perk_000_name)",
                "id": "defender_aggro_shout",
                "icon": "file(images/defender_perk_heros_horn.png)",
-               "equipment": "stonehearth:defender:aggro_shout_2",
-               "last_equipment": "stonehearth:defender:aggro_shout_1",
-               "action_type": "stonehearth:combat:melee_attacks",
-               "description": "i18n(stonehearth:jobs.defender.defender_description.level_6_data.perk_000_description)",
+               "equipment": "calltoarms:defender:aggro_shout_2",
+               "last_equipment": "calltoarms:defender:aggro_shout_1",
+               "action_type": "calltoarms:combat:melee_attacks",
+               "description": "i18n(calltoarms:jobs.defender.defender_description.level_6_data.perk_000_description)",
                "level": 6,
                "demote_fn": "remove_combat_action"
             }

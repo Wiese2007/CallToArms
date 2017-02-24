@@ -1,11 +1,13 @@
 {
    "entities": {
+   	"furniture": {
       "patrol_point": {
          "patrol_point_ghost": {
             "display_name" : "Patrol Point",
             "description" : "Let your footmen patrol!"
-         }
-      }
+         		}
+      		}
+     	}  
    },
    "recipes": {
       "carpenter": {

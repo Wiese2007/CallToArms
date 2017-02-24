@@ -1,10 +1,10 @@
 {
    "type": "recipe",
    "work_units": 5,
-   "recipe_name": "i18n(patrol_mod:recipes.carpenter.patrol_point_recipe.recipe_name)",
-   "description": "i18n(patrol_mod:recipes.carpenter.patrol_point_recipe.description)",
-   "flavor": "i18n(patrol_mod:recipes.carpenter.patrol_point_recipe.flavor)",
-   "portrait": "/patrol_mod/entities/patrol_point/patrol_point.png",
+   "recipe_name": "i18n(calltoarms:recipes.carpenter.patrol_point_recipe.recipe_name)",
+   "description": "i18n(calltoarms:recipes.carpenter.patrol_point_recipe.description)",
+   "flavor": "i18n(calltoarms:recipes.carpenter.patrol_point_recipe.flavor)",
+   "portrait": "/calltoarms/entities/patrol_point/patrol_point.png",
    "workshop" : "stonehearth:carpenter:workbench", 
    "level_requirement": 1,
    "ingredients": [
@@ -19,7 +19,7 @@
    ],
    "produces": [
       {
-         "item": "patrol_mod:furniture:patrol_point"
+         "item": "calltoarms:furniture:patrol_point"
       }
    ]
 }

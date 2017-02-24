@@ -1,13 +1,36 @@
 {
     "info": {
-        "name": "patrol_mod",
+        "name": "calltoarms",
         "version": 3
     },
     "default_locale" : "en",
 
     "aliases": {
 
-        "furniture:patrol_point": "file(entities/patrol_point)",
+        "furniture:patrol_point": "file(entities/furniture/patrol_point)",
+        "furniture:cook_pot_fire": "file(entities/furniture/cook_pot_fire)",
+
+        "decorations:tapestry_wall_art": "file(entities/decorations/tapestry_wall_art)",
+        "decorations:tapestry_wall_charge": "file(entities/decorations/tapestry_wall_charge)",
+        "decorations:tapestry_wall_soldier": "file(entities/decorations/tapestry_wall_soldier),",
+		"decorations:tapestry_wall_together": "file(entities/decorations/tapestry_wall_together)",
+		"decorations:tent": "file(entities/decorations/tent)",
+
+		"armor:defender_outfit": "file(entities/jobs/defender/defender_outfit)",
+		"armor:defender_helm": "file(entities/jobs/defender/defender_helm)",
+		"armor:defender_tower_shield": "file(entities/jobs/defender/defender_tower_shield)",
+		"armor:defender_steel_armor": "file(entities/armor/defender_steel_armor)",
+		"armor:defender_steel_helm": "file(entities/armor/defender_steel_helm)",
+		"armor:defender_steel_tower_shield": "file(entities/armor/defender_tower_shield)",
+		"armor:defender_ceremonial_armor": "file(entities/armor/defender_ceremonial_armor)",
+		"armor:defender_ceremonial_helm": "file(entities/armor/defender_ceremonial_helm)",
+		"armor:defender_ceremonial_tower_shield": "file(entities/armor/defender_ceremonial_tower_shield)",
+
+		"weapons:defender_spear": "file(entities/jobs/defender/defender_spear)",
+		"weapons:defender_steel_spear": "file(entities/weapons/defender_steel_spear)",
+		"weapons:defender_ceremonial_spear":  "file(entities/weapons/defender_ceremonial_spear)"
+
+
     },
 
     "mixintos" : {
