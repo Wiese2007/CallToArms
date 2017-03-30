@@ -5,12 +5,9 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(iron_pike_equipped.qb)"
+               "file(defender_iron_spear_equipped.qb)"
             ]
          }
-      },
-      "stonehearth:entity_forms": {
-         "iconic_form": "file(iron_pike_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
@@ -53,9 +50,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:entities.weapons.iron_pike.display_name)",
-         "description": "i18n(stonehearth:entities.weapons.iron_pike.description)",
-         "icon": "file(iron_pike.png)",
+         "display_name": "i18n(stonehearth:entities.weapons.defender_iron_spear.display_name)",
+         "description": "i18n(stonehearth:entities.weapons.defender_iron_spear.description)",
+         "icon": "file(defender_iron_spear.png)",
          "category": "weapons",
          "material_tags": "iron melee_weapon crafted stockpile_weapon"
       }
